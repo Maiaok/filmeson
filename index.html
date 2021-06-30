@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Filmes On</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#"> <img src="img/cena.jpg" alt="some text" width=100 height=90>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">Lançamentos <span class="sr-only">(página atual)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Em Destaque</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
+                     Avaliações
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#">Avaliações</a>
+                     <a class="dropdown-item" href="#">Entrevistas</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">Algo mais aqui</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Entrevista</a>
+               </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0"  id="formulario">
+               <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" id="pesquisa">
+               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="containerCarousel">
+                  <div class="titleCarousel">
+                     <h1>
+                        Lançamentos
+                     </h1>
+                  </div>
+                  <div class="raissa">
+                     <div class="caixadovideo">
+                        <iframe class="mic" src="https://www.youtube.com/embed/Cc4zBdA8s4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                         
+                     </div>
+                     <div class="descricao">
+                        <h1>
+                           Os Eternos
+                        </h1>
+                        <div class="descricaoparagrafo">
+                           <p>
+                              <b> SINOPSE: </b> Originários dos primeiros seres a terem habitado a Terra, Os Eternos fazem parte de uma raça modificada geneticamente pelos deuses espaciais conhecidos como Celestiais. Dotados de características como imortalidade e manipulação de energia cósmica, eles são frutos de experiências fracassadas de seus próprios criadores, que também foram responsáveis por gerar os Deviantes, seus principais inimigos.
+
+                           <p></p>
+                           <b>DIRETOR:</b> Chloé Zhao <b>ROTEIRO: </b> Matthew K. Firpo <b>ESTREIA:</b> 5 de novembro de 2021
+                           <p></p>
+
+
+                           <b>ELENCO PRINCIPAL:</b> Angelina Jolie | Richard Madden | Salma Hayek
+                           </p>
+                           <span class="fas fa-star"></span>
+                           <span class="fas fa-star"></span>
+                           <span class="fas fa-star"></span>
+                           <span class="far fa-star"></span>
+                           <span class="far fa-star"></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="containerCarousel">
+                  <div class="titleCarousel">
+                     <h1>
+                        Lançamentos
+                     </h1>
+                  </div>
+                  <div class="raissa">
+                     <div class="caixadovideo">
+                        <iframe  class="mic"  src="https://www.youtube.com/embed/fEE4RO-_jug"
+                           title="YouTube video player" frameborder="0"
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen></iframe>
+                     </div>
+                     <div class="descricao">
+                        <h1>
+                           Velozes e Furiosos 9
+                        </h1>
+                        <div class="descricaoparagrafo">
+                           <p>
+                           <p>
+                              <b>SINOPSE: </b>Em Velozes & Furiosos 9, Dominic Toretto (Vin Diesel) e Letty (Michelle
+                              Rodriguez) vivem uma vida pacata ao lado de seu filho Brian. Mas eles logo são ameaçados
+                              pelo passado de Dom: seu irmão desaparecido Jakob (John Cena). Trata-se de um assassino
+                              habilidoso e motorista excelente, que está trabalhando ao lado de Cipher (Charlize
+                              Theron), vilã de Velozes & Furiosos 8. Para enfrentá-los, Toretto vai precisar reunir sua
+                              equipe novamente, inclusive Han (Sung Kang), que todos acreditavam estar morto.
+                              <br>
+                              <br>
+                              <b>DIRETOR: </b> Justin Lin &nbsp;&nbsp; <b>ROTEIRO: </b> Daniel Casey &nbsp;&nbsp;
+                              <b>ESTREIA: </b> 19 de maio de 2021
+
+                              <br><br> <b>ELENCO PRINCIPAL: </b><br> Vin Diesel | John Cena | Michelle Rodriguez |
+                              Tyrese Gibson
+                           <div class="mt-4">
+                              <b>Avaliações</b> <br>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star-half-alt"></span>
+                           </div>
+                           </p>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="containerCarousel">
+                  <div class="titleCarousel">
+                     <h1>
+                        Lançamentos
+                     </h1>
+                  </div>
+                  <div class="raissa">
+                     <div class="caixadovideo">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4lEpxpZqhjc" title="YouTube video player"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                     </div>
+                     <div class="descricao">
+                        <h1>
+                           Mortal Kombat
+                        </h1>
+                        <div class="descricaoparagrafo">
+                           <p>
+                           <p>
+                              <b>SINOPSE: </b> Os planetas estão desalinhados. Para deter as forças do mal e salvar a
+                              humanidade, Lord Rayden, o protetor da Terra, escolhe as três pessoas capazes de vencer o
+                              Mortal Kombat, disputado pelos melhores lutadores do universo. <br>
+                              <br>
+                              <b>DIRETOR: </b> Simon Mcquoid &nbsp;&nbsp; <b>ROTEIRO: </b> Greg Russo &nbsp;&nbsp;
+                              <b>ESTREIA: </b> 13 De Maio de 2021
+
+                              <br><br> <b>ELENCO PRINCIPAL: </b><br> Joe Taslim | Josh Lawson | Lewis Tan |
+                           <div class="mt-4">
+                              <b>Avaliações</b> <br>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="far fa-star"></span>
+                           </div>
+                           </p>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+         </a>
+      </div>
+      <div class="destaques">
+         <div class="container">
+            <div class="row emDestaque">
+               <div class="col-sm-9">
+                  <h2>Em Destaque</h2>
+               </div>
+               <div class="col-sm-3">
+                  <select name="Selecione" class="select">
+                     <option value="categoria">Categoria: Todos</option>
+                     <option value="aventura">Aventura</option>
+                     <option value="romance">Romance</option>
+                     <option value="comedia">Comédia</option>
+                  </select>
+               </div>
+            </div>
+            <div class="row" id="filmespopulares">
+               <!-- <div class="col">
+                  <img class="Cd" src="img/black.jpg" alt="some text" width=250 height=350>
+                  <p>Nome do Filme:</p>
+                  <p>Popularidade: </p>
+                  <p>Data de estréia: </p>
+               </div> -->
+               
+         
+                
+                  <!-- <div class="containerButton">
+                     <button type="button" class="btn btn-lg button">Carregar mais Filmes</button>
+                  </div> -->
+      
+            </div>
+            <div class="containerAvaliacoes">
+               <div>
+                  <h1>Ultimas Avaliações</h1>
+               </div>
+               <div class="avaliacoes row">
+                  <div class="col">
+                     <div class="card mb-3" class="Larg">
+                        <div class="row g-0">
+                           <div class="col-md-2">
+                              <i class="bi bi-person-circle icon"></i>
+                           </div>
+                           <div class="col-md-9">
+                              <div class="card-body">
+                                 <h5 class="card-title">Isaque Couto</h5>
+                                 <p class="card-text">Interstellar é um ótimo filme, gostei muito de como ele adapta ao
+                                    drama e suspense durante o filme, recomendo muito. </p>
+                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                 <span class="fas fa-star"></span>
+                                 <span class="fas fa-star"></span>
+                                 <span class="fas fa-star"></span>
+                                 <span class="fas fa-star"></span>
+                                 <span class="fas fa-star-half-alt"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="card mb-3" class="Larg">
+                        <div class="row g-0">
+                           <div class="col-md-2">
+                              <i class="bi bi-person-circle icon"></i>
+                           </div>
+                           <div class="col-md-10">
+                              <div class="card-body">
+                                 <h5 class="card-title">Michele C</h5>
+                                 <p class="card-text">Gostei muito de do filme Soul, traz reflexões muito profundas com
+                                    a leveza de uma animação. Ideal para toda família!</p>
+                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                 <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="far fa-star"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="card mb-3" class="Larg">
+                        <div class="row g-0">
+                           <div class="col-md-2">
+                              <i class="bi bi-person-circle icon"></i>
+                           </div>
+                           <div class="col-md-10">
+                              <div class="card-body">
+                                 <h5 class="card-title">Miguel B</h5>
+                                 <p class="card-text"> Fuja, Filme fantastico, fiquei encantado com certeza irei indicar
+                                    para outros pessoas adoro como o filme tem muito suspense.</p>
+                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                 <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="fas fa-star"></span>
+                              <span class="far fa-star"></span>
+                              <span class="far fa-star"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="containerButton">
+                        <button type="button" class="btn btn-lg button">Carregar mais Avaliações</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container pt-2 ">
+         <div class="row ">
+            <div class="col-md-12 ">
+               <div style="text-align: left; ">
+                  <h3>Entrevistas &amp; Making of</h3>
+               </div>
+               <div class="row ">
+                  <div class="col-md-4 ">
+                     <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0HEvyxNJRks"
+                           title="YouTube video player" frameborder="0"
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen></iframe>
+                     </div>
+                  </div>
+                  <div class="col-md-4 ">
+                     <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fgUyRVOSqlA"
+                           title="YouTube video player" frameborder="0"
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen></iframe>
+                     </div>
+                  </div>
+                  <div class="col-md-4 ">
+                     <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cLVNJ50vCDI"
+                           title="YouTube video player" frameborder="0"
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                           allowfullscreen></iframe>
+                     </div>
+                  </div>
+               </div>
+               <div class="row ">
+                  <div class="col-md-4 ">
+                     <h4><b>Filme: </b> Aquaman <br></h4>
+                     <b>Diretor:</b> James Wan &nbsp; <b>Roteiro: </b>Will Beall</p>
+                  </div>
+                  <div class="col-md-4 ">
+                     <h4><b>Filme: </b> 1917<br></h4>
+                     <b>Diretor:</b> Sam Mendes &nbsp; <b>Roteiro:</b>Krysty Wilson-Cairns</p>
+                  </div>
+                  <div class="col-md-4 ">
+                     <h4><b>Filme: </b> Coringa <br></h4>
+                     <b>Diretor:</b>Todd Phillips &nbsp; <b>Roteiro: </b>Bob Kane</p>
+                  </div>
+                  <button type="button" class="btn btn-lg button"> + Carregar mais Filmes</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="container " style="margin-top:30px ">
+         <div class="row ">
+            <div class="col-md-12 ">
+               <div class="row ">
+                  <div class="col-md-12 ">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row mb-3 ">
+            <div class="col-sm-12 col-md-6 col-lg-8 ">
+               <h2>Novidades</h2>
+               <div class="card mb-3 ">
+                  <div class="row g-0 ">
+                     <div class="card col-sm-12 col-md-4 col-lg-4 ">
+                        <img src="img/oscars.jpg " alt="novidades ">
+                     </div>
+                     <div class="card col-sm-12 col-md-8 col-lg-8 ">
+                        <div class="card-body ">
+                           <h5 class="card-title ">Oscar 2021: Oscar 2021: 'Nomadland' é grande vencedor, com prêmios de
+                              melhor filme, direção e atriz</h5>
+                           <p class="card-text ">"Nomadland" foi o grande vencedor do Oscar 2021 neste domingo (25), com
+                              três prêmios. Drama americano sobre nômades da terceira idade sem emprego ou
+                              aposentadoria, venceu o principal prêmio da noite: Melhor filme.</p>
+                           <p class="card-text "><small class="text-muted ">26/04/2021</small></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card mb-3 ">
+                  <div class="row g-0 ">
+                     <div class="card col-sm-12 col-md-4 col-lg-4 ">
+                        <img src="img/capt.jpg " alt="novidades ">
+                     </div>
+                     <div class="card col-sm-12 col-md-8 col-lg-8 ">
+                        <div class="card-body ">
+                           <h5 class="card-title ">Marvel confirma “Capitão América 4” com roteirista de “Falcão e o
+                              Soldado Invernal”. </h5>
+                              <p class="card-text ">Horas depois de o Disney+ disponibilizar o último episódio de O
+                                 Falcão e o Soldado Invernal, o Marvel Studios confirmou a produção de Capitão América
+                                 4. Segundo o THR, o filme será escrito por Malcolm Spelman, criador e roteirista da
+                                 série estrelada por Anthony Mackie e Sebastian Stan, e Dalan Musson, que fez parte da
+                                 sala de roteiristas do seriado.</p>
+                              <p class="card-text "><small class="text-muted ">25/04/2021</small></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row g-0 ">
+                  <div class="card col-sm-12 col-md-4 col-lg-4 ">
+                     <img src="img/spider.jpg" alt="novidades ">
+                  </div>
+                  <div class="card col-sm-12 col-md-8 col-lg-8 ">
+                     <div class="card-body ">
+                        <h5 class="card-title ">Homem-Aranha 3: Multiverso vai conectar os filmes com Tobey Maguire e
+                           Andrew Garfield na Fase 4 da Marvel</h5>
+                        <p class="card-text ">Homem-Aranha 3 é um dos quatro filmes da Marvel programados para serem
+                           lançados em 2021 e um dos mais aguardados, afinal, a produção pode explorar o Multiverso do
+                           Universo Cinematográfico Marvel. Apesar de Tom Holland ter desmentido os rumores, uma das
+                           grandes expectativas é que o Peter Parker de Tom Holland, o atual Homem-Aranha no UCM,
+                           encontre as outras versões do personagem no cinema , interpretados por Tobey Maguire e Andrew
+                           Garfield – que são dois dos muitos personagens especulados.</p>
+                        <p class="card-text "><small class="text-muted ">25/04/2021</small></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 ">
+               <div class="card-body pb-0 ">
+                  <h2>Sobre</h2>
+                  <p> Sabemos do seu desafio em encontrar um filme online dublado ou legendado entre as mais diversas plataformas de streaming, como Netflix, YouTube, Amazon Prime Video, NOW e Apple TV e muitas mais.
+
+                     Nossa missão é te ajudar a encontrar os melhores filmes em cartaz nos cinemas e em alta qualidade (HD) para você assistir online, no conforto da sua casa, nos serviços de streaming. </p>
+                  <h2>Editorial</h2>
+                  <p><i class="fas fa-user " aria-hidden="true "></i><strong> Redação: </strong> Raíssa Couto Maia</p>
+                  <p><i class="fas fa-user " aria-hidden="true "></i><strong> Pesquisa: </strong> Raíssa Couto Maia</p>
+                  <p><i class="fas fa-user " aria-hidden="true "></i><strong> Gerente geral: </strong> Raíssa Couto Maia
+                  </p>
+                  <h3>Redes Sociais:</h3>
+                  <i class="fab fa-facebook-square"></i>&nbsp;
+                  <i class="fab fa-twitter"></i>&nbsp;
+                  <i class="fab fa-instagram"></i>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </main>
+   <footer>
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"
+      integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
+</body>
+
+</html>
+</main>
+<footer class="bd-footer p-3 p-md-5 mt-5 bg-light">
+   <div class="container - fluid">
+      <div class="row justify-content-between">
+         <div class="col-sm-4 text-sm-left  text-center">
+            <img src="img/cena.jpg" alt="some text" width=90 height=90>
+         </div>
+         <div class="col-sm-4  text-center text-sm-right">
+            <p class="mt-4 mt-sm-0 ">Desenvovilvimento e interface WeB</p>
+            <p> <b>PUC MINAS</b></p>
+            <p><b>Aluno(a): </b>Raíssa Maia</p>
+         </div>
+      </div>
+</footer>
+</footer>
+   <script src="index.js"></script>
+</body>
+
+</html>

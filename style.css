@@ -1,0 +1,159 @@
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.containerCarousel {
+	padding: 30px;
+	background-color: lightgray;
+}
+
+.containerCarousel>h1 {
+	text-align: center;
+}
+
+.caixadovideo {
+	width: 45%;
+}
+
+.descricaoparagrafo>P {
+	font-size: 18px;
+}
+.divPopulares {
+	display: flex;
+	flex-direction: column;
+}
+
+.containerPopulares {
+	margin: 10px;
+	width: 250px;
+}
+
+.videoCarousel {
+	width: 700px;
+	height: 200px;
+}
+
+.descricaoparagrafo {
+	width: 90%;
+}
+
+.titleCarousel {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.descricao {
+	width: 55%;
+	padding: 0px 20px 20px 20px;
+}
+
+.destaques {
+	padding: 30px;
+}
+
+.emDestaque {
+	padding: 20px;
+}
+
+.select {
+	font-size: 25px;
+	border-radius: 15px;
+	background-color: lightgray;
+	padding: 5px;
+	margin-left: 30px;
+}
+
+img {
+	border-radius: 40px;
+}
+
+.containerAvaliacoes {
+	padding: 30px;
+}
+
+.avaliacoes {
+	padding-top: 10px;
+}
+
+.icon {
+	font-size: 50px;
+	padding: 15px;
+}
+
+.containerButton {
+	text-align: center;
+	padding: 20px;
+}
+
+.mic {
+    width: 500px;
+	height: 350px;
+
+}
+.raissa {
+	display:flex ;
+	flex-direction: row ;
+}
+.larg {
+	width: 300px;
+}
+@media (max-width: 600px){
+
+	.larg{
+		width: 150px;
+		
+	}
+	.raissa{
+		display:flex ;
+		flex-direction:column ;
+
+	
+ 	}
+	 .mic {
+		 width: 100% ;
+		 height: 100%;
+	 }
+	 .descricao {
+		 
+		 width: 100%;
+	 }
+	 .caixadovideo { 
+				 width: 250px ;
+		 height : 150px ; 
+		 
+		 margin-left: 20px ;
+		 }
+
+			.Cd {
+				margin-bottom: 10px;
+			
+			}
+      .avaliacoes {
+	
+		  width: 250px;
+	  }
+}
+
+@media (max-width: 768px)  {
+	.larg {
+		width: 150px;
+	}
+	.raissa {
+		display: flex;
+		flex-direction: column;
+
+	}
+	.descricao {
+				width: 100%;
+	}
+	.containerAvaliacoes{
+
+		width: 100%;
+	}
+	.avaliacoes {
+		width:  100%;
+	}
+}
+
